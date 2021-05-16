@@ -35,16 +35,16 @@ public Ham_PlayerSpawn_Post(id)
 public GiveItem(id)
 {
 	if(!is_user_alive(id)) return;
-		if(Knife[id])
-		{		
-			fm_strip_user_weapons(id)
-		}
-		else
-		{
-      			fm_strip_user_weapons(id)
-     		 	fm_give_item(id, "weapon_knife")
-		}
-return PLUGIN_HANDLED;
+	if(Knife[id])
+	{		
+		fm_strip_user_weapons(id)
+	}
+	else
+	{
+      		fm_strip_user_weapons(id)
+     	 	fm_give_item(id, "weapon_knife")
+	}
+	return PLUGIN_HANDLED;
 }
 
 stock fm_give_item(index, const item[])
