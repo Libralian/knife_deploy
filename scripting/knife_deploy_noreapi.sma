@@ -3,7 +3,9 @@
 #include <hamsandwich>
 #include <cstrike>
 #include <fun>
+
 new bool:Knife[33];
+
 public plugin_init()
 {
 	register_plugin("KnifeDeploy", "1.0", "Lovsky")
