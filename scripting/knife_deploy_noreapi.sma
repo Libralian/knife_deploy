@@ -34,8 +34,8 @@ public Ham_PlayerSpawn_Post(id)
 
 public GiveItem(id)
 {
-	if(!is_user_alive(id)) return;
-	if(Knife[id])
+    if(!is_user_alive(id)) return;
+        if(Knife[id])
 	{		
 		fm_strip_user_weapons(id)
 	}
