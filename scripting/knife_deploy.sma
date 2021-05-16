@@ -18,7 +18,6 @@ public plugin_init()
 public client_putinserver(id)
 {
 	gKnife[id] = false;
-
 }
 
 public client_disconnected(id)
