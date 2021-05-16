@@ -12,7 +12,7 @@ public plugin_init()
 	RegisterHookChain(RG_CBasePlayer_Spawn, "CBasePlayer_Spawn", .post = true);
 
 	register_clcmd("say /knife", "knife_deploy");
-	register_clcmd("knife_dp", "knife_deploy");
+	register_clcmd("knife_dp", "knife_deploy"); //123
 }
 
 public client_putinserver(id)
