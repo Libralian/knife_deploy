@@ -2,7 +2,7 @@
 #include <fakemeta>
 #include <hamsandwich>
 #include <cstrike>
-#include <fun>
+
 
 new bool:Knife[33];
 
